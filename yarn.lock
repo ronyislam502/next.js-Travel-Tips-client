@@ -165,7 +165,7 @@
     "@heroui/system" "2.4.6"
     "@heroui/use-measure" "2.1.1"
 
-"@heroui/input@2.4.9":
+"@heroui/input@^2.4.9":
   version "2.4.9"
   resolved "https://registry.npmjs.org/@heroui/input/-/input-2.4.9.tgz"
   integrity sha512-VssN+b0p85DB1nCtuFWT4IlKS2Ot8a5ljR+oynK4B88DyOI6gp3ow66HB9BS2Gli03RU5NIQ2N8bj//eBJLeBw==

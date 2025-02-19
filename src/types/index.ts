@@ -12,4 +12,11 @@ export type TInput = {
   label: string;
   name: string;
   disabled?: boolean;
+  colors?:
+    | "default"
+    | "primary"
+    | "secondary"
+    | "success"
+    | "warning"
+    | "danger";
 };

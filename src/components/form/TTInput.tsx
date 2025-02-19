@@ -7,12 +7,13 @@ import { useFormContext } from "react-hook-form";
 interface TProps extends TInput {}
 
 const TTInput = ({
-  variant = "bordered",
+  variant = "flat",
   size = "md",
   required = false,
   type = "text",
   label,
   name,
+  colors = "primary",
 }: TProps) => {
   const {
     register,
@@ -22,6 +23,7 @@ const TTInput = ({
   return (
     <Input
       {...register(name)}
+      color={colors}
       errorMessage={errors[name] ? (errors[name].message as string) : ""}
       isInvalid={!errors[name]}
       label={label}
